@@ -92,13 +92,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
+  align-content: center;
+  justify-content: center;
   /* Image zoom on hover + Overlay colour */
 }
 #catalogo .boxes-container .right {
   float: right !important;
 }
 #catalogo .boxes-container .parent {
-  width: 30%;
+  width: 28%;
   margin: 20px;
   height: 300px;
   overflow: hidden;

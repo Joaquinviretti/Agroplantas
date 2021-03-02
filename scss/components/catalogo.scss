@@ -8,11 +8,13 @@ body{
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
+        align-content: center;
+        justify-content: center;
 
         .right {float: right !important;}
 /* Image zoom on hover + Overlay colour */
 .parent {
-    width: 30%;
+    width: 28%;
     margin: 20px;
     height: 300px;
     overflow: hidden;
