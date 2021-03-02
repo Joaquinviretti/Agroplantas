@@ -94,18 +94,14 @@ body {
   margin-top: 20px;
   align-content: center;
   justify-content: center;
-  /* Image zoom on hover + Overlay colour */
-}
-#catalogo .boxes-container .right {
-  float: right !important;
 }
 #catalogo .boxes-container .parent {
   width: 28%;
-  margin: 20px;
+  min-width: 300px;
+  margin: 10px;
   height: 300px;
   overflow: hidden;
   position: relative;
-  display: inline-block;
   cursor: pointer;
 }
 #catalogo .boxes-container .child {

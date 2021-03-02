@@ -11,73 +11,72 @@ body{
         align-content: center;
         justify-content: center;
 
-        .right {float: right !important;}
-/* Image zoom on hover + Overlay colour */
-.parent {
-    width: 28%;
-    margin: 20px;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.child {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-a {
-    display: none;
-    font-size: 35px;
-    color: #ffffff !important;
-    font-family: sans-serif;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.parent:hover .child, .parent:focus .child {
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-.parent:hover .child:before, .parent:focus .child:before {
-    display: block;
-}
-
-.parent:hover a, .parent:focus a {
-    display: block;
-}
-
-.child:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(52, 94, 61, 0.75);
-}  
+        .parent {
+            width: 28%;
+            min-width: 300px;
+            margin: 10px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+           
+            cursor: pointer;
         }
+
+        .child {
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+        }
+
+        a {
+            display: none;
+            font-size: 35px;
+            color: #ffffff !important;
+            font-family: sans-serif;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 50px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .parent:hover .child, .parent:focus .child {
+            -ms-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        .parent:hover .child:before, .parent:focus .child:before {
+            display: block;
+        }
+
+        .parent:hover a, .parent:focus a {
+            display: block;
+        }
+
+        .child:before {
+            content: "";
+            display: none;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(52, 94, 61, 0.75);
+        }  
+                }
 
         .aromaticas {
             background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
