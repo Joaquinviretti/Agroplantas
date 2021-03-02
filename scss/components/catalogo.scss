@@ -1,0 +1,32 @@
+#catalogo   {
+    height: 90vh;
+    .boxes-container    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        .box-catalogo   {
+            width: 30%;
+            height: 250px;
+            background-color: black;
+            margin: 20px 20px;
+        }
+        .aromaticas {
+
+        }
+        .interion   {
+
+        }
+        .exterior   {
+
+        }
+        .arboles    {
+
+        }
+        .cactus {
+
+        }
+        .suculentas {
+            
+        }
+    }
+}
