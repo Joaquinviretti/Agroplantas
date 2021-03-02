@@ -55,6 +55,9 @@ header {
   position: sticky;
   top: 0;
 }
+header nav {
+  background-color: #61705d;
+}
 header nav img {
   width: 50px;
 }
