@@ -1,5 +1,5 @@
 .portada .foto-portada {
-  background-image: url("../../img/portada.jpg");
+  background-image: url("../img/portada.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
