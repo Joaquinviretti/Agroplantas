@@ -32,5 +32,17 @@
         justify-content: center;
         padding: 50px;
   
+        .modal-body     {
+            display: flex;
+            justify-content: space-around;
+
+
+            a   {
+                color: gray;
+                &:hover     {
+                    color: rgb(82, 82, 82);
+                }
+            }
+        }
     }
 }

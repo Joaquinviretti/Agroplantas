@@ -244,6 +244,16 @@ body {
   justify-content: center;
   padding: 50px;
 }
+.metodo-contacto .container .modal-body {
+  display: flex;
+  justify-content: space-around;
+}
+.metodo-contacto .container .modal-body a {
+  color: gray;
+}
+.metodo-contacto .container .modal-body a:hover {
+  color: #525252;
+}
 
 footer {
   height: 70px;
