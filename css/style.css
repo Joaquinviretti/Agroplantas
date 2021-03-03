@@ -88,6 +88,14 @@ body {
   background-color: #eef3eb !important;
 }
 
+#catalogo h2 {
+  text-align: center;
+  font-family: "../../fonts/medio.otf";
+  padding: 30px 0 0 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
 #catalogo .boxes-container {
   display: flex;
   flex-wrap: wrap;
@@ -129,6 +137,9 @@ body {
   height: 50px;
   cursor: pointer;
   text-decoration: none;
+}
+#catalogo .boxes-container .cactus a {
+  bottom: 30px !important;
 }
 #catalogo .boxes-container .parent:hover .child, #catalogo .boxes-container .parent:focus .child {
   -ms-transform: scale(1.2);
@@ -182,6 +193,22 @@ body {
   font-family: "../../fonts/medio.otf";
   text-align: center;
   font-size: 2.3em;
+}
+#aromaticas .container .catalogo-aromaticas .card {
+  width: 250px;
+  height: 300px;
+}
+#aromaticas .container .catalogo-aromaticas .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#aromaticas .container .catalogo-aromaticas .card .info {
+  padding: 10px;
+}
+#aromaticas .container .catalogo-aromaticas .card .info .titulo {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
