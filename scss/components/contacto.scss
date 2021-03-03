@@ -1,0 +1,21 @@
+#contacto   {
+    h3  {
+        font-family: ("../fonts/medio.otf");
+        font-size: 2rem;
+    }
+    .container  {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+       
+        .formulario     {
+            width: 80%;
+            input   {
+                border-radius: 0;
+                box-shadow: none;
+                border: white;
+            }
+        }
+    }
+    }
+    

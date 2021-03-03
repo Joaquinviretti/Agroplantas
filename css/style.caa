@@ -216,27 +216,8 @@ body {
   font-size: 1.5rem;
 }
 
-#contacto h3 {
-  font-family: "../fonts/medio.otf";
-  font-size: 2rem;
-}
-#contacto .container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-#contacto .container .formulario {
+#contacto .formulario {
   width: 80%;
 }
-#contacto .container .formulario input {
-  border-radius: 0;
-  box-shadow: none;
-  border: white;
-}
 
-footer {
-  height: 70px;
-  background-color: #61705d;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.caa.map */
