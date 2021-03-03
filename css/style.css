@@ -172,4 +172,16 @@ body {
   background-image: url("https://cdn.shopify.com/s/files/1/1822/1197/articles/Bringing_Plants_Inside_Cover_581ce441-fa06-442e-9050-8b0305904dec_2048x.jpg?v=1570119394");
 }
 
+#aromaticas {
+  height: 100vh;
+}
+#aromaticas .container {
+  margin-top: 40px;
+}
+#aromaticas .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+
 /*# sourceMappingURL=style.css.map */
