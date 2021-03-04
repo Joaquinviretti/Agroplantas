@@ -198,7 +198,7 @@ body {
   width: 250px;
   height: 300px;
   border-radius: 5px;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 2px #b9b9b9;
 }
 #aromaticas .container .catalogo-aromaticas .card .foto-planta {
   width: 100%;
@@ -256,8 +256,18 @@ body {
 }
 
 footer {
-  height: 70px;
-  background-color: #61705d;
+  height: 60px;
+  background-color: #556351;
+}
+footer .container-fluid {
+  height: 100%;
+  display: flex;
+  align-content: center;
+}
+footer .container-fluid p {
+  color: #fafafa !important;
+  padding: 20px 0;
+  font-size: 0.9rem;
 }
 
 .button {
