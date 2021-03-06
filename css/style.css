@@ -205,7 +205,7 @@ body {
   height: 300px;
   border-radius: 5px;
   margin: 0 20px 20px 0;
-  /* aca se debe poner la foto de la planta*/
+  /* aca se debe poner la foto de la planta. La ruta debe ser relativa al archivo css dentro de la carpeta css*/
 }
 #aromaticas .container .catalogo-aromaticas .card .foto-planta {
   width: 100%;
