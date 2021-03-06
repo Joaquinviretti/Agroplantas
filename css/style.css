@@ -368,4 +368,244 @@ footer .container-fluid p {
   transform: scaleY(0);
 }
 
+#interior .container {
+  margin-top: 40px;
+}
+#interior .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+#interior .container .catalogo-interior {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#interior .container .catalogo-interior .card {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
+}
+#interior .container .catalogo-interior .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-size: cover;
+}
+#interior .container .catalogo-interior .card .planta1 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#interior .container .catalogo-interior .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#interior .container .catalogo-interior .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#interior .container .catalogo-interior .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#interior .container .catalogo-interior .card .info {
+  padding: 10px;
+}
+#interior .container .catalogo-interior .card .info .titulo {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#exterior .container {
+  margin-top: 40px;
+}
+#exterior .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+#exterior .container .catalogo-exterior {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#exterior .container .catalogo-exterior .card {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
+}
+#exterior .container .catalogo-exterior .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-size: cover;
+}
+#exterior .container .catalogo-exterior .card .planta1 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#exterior .container .catalogo-exterior .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#exterior .container .catalogo-exterior .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#exterior .container .catalogo-exterior .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#exterior .container .catalogo-exterior .card .info {
+  padding: 10px;
+}
+#exterior .container .catalogo-exterior .card .info .titulo {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#arboles .container {
+  margin-top: 40px;
+}
+#arboles .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+#arboles .container .catalogo-arboles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#arboles .container .catalogo-arboles .card {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
+}
+#arboles .container .catalogo-arboles .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-size: cover;
+}
+#arboles .container .catalogo-arboles .card .planta1 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#arboles .container .catalogo-arboles .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#arboles .container .catalogo-arboles .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#arboles .container .catalogo-arboles .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#arboles .container .catalogo-arboles .card .info {
+  padding: 10px;
+}
+#arboles .container .catalogo-arboles .card .info .titulo {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#cactus .container {
+  margin-top: 40px;
+}
+#cactus .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+#cactus .container .catalogo-cactus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#cactus .container .catalogo-cactus .card {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
+}
+#cactus .container .catalogo-cactus .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-size: cover;
+}
+#cactus .container .catalogo-cactus .card .planta1 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#cactus .container .catalogo-cactus .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#cactus .container .catalogo-cactus .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#cactus .container .catalogo-cactus .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#cactus .container .catalogo-cactus .card .info {
+  padding: 10px;
+}
+#cactus .container .catalogo-cactus .card .info .titulo {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#macetas .container {
+  margin-top: 40px;
+}
+#macetas .container .titulo h2 {
+  font-family: "../../fonts/medio.otf";
+  text-align: center;
+  font-size: 2.3em;
+}
+#macetas .container .catalogo-macetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#macetas .container .catalogo-macetas .card {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
+}
+#macetas .container .catalogo-macetas .card .foto-planta {
+  width: 100%;
+  height: 60%;
+  background-color: black;
+  background-size: cover;
+}
+#macetas .container .catalogo-macetas .card .planta1 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#macetas .container .catalogo-macetas .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#macetas .container .catalogo-macetas .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#macetas .container .catalogo-macetas .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#macetas .container .catalogo-macetas .card .info {
+  padding: 10px;
+}
+#macetas .container .catalogo-macetas .card .info .titulo {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
