@@ -141,6 +141,9 @@ body {
 #catalogo .boxes-container .cactus a {
   bottom: 30px !important;
 }
+#catalogo .boxes-container .aromaticas a {
+  bottom: 30px !important;
+}
 #catalogo .boxes-container .parent:hover .child, #catalogo .boxes-container .parent:focus .child {
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -183,9 +186,6 @@ body {
   background-image: url("https://cdn.shopify.com/s/files/1/1822/1197/articles/Bringing_Plants_Inside_Cover_581ce441-fa06-442e-9050-8b0305904dec_2048x.jpg?v=1570119394");
 }
 
-#aromaticas {
-  height: 100vh;
-}
 #aromaticas .container {
   margin-top: 40px;
 }
@@ -194,18 +194,36 @@ body {
   text-align: center;
   font-size: 2.3em;
 }
+#aromaticas .container .catalogo-aromaticas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
 #aromaticas .container .catalogo-aromaticas .card {
   width: 250px;
   height: 300px;
   border-radius: 5px;
-  box-shadow: 0 0 2px #b9b9b9;
+  margin: 0 20px 20px 0;
+  /* aca se debe poner la foto de la planta*/
 }
 #aromaticas .container .catalogo-aromaticas .card .foto-planta {
   width: 100%;
   height: 60%;
   background-color: black;
+  background-size: cover;
+}
+#aromaticas .container .catalogo-aromaticas .card .planta1 {
   background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
-  background-size: contain;
+}
+#aromaticas .container .catalogo-aromaticas .card .planta2 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#aromaticas .container .catalogo-aromaticas .card .planta3 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
+}
+#aromaticas .container .catalogo-aromaticas .card .planta4 {
+  background-image: url("http://viverosjaenluismoreno.com/wp-content/uploads/2014/10/DSCF5410-001-1024x768.jpg");
 }
 #aromaticas .container .catalogo-aromaticas .card .info {
   padding: 10px;
@@ -216,19 +234,20 @@ body {
   font-size: 1.5rem;
 }
 
-#contacto h3 {
+.contacto-form h3 {
   font-family: "../fonts/medio.otf";
   font-size: 2rem;
+  margin-top: 20px;
 }
-#contacto .container {
+.contacto-form .container {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
-#contacto .container .formulario {
+.contacto-form .container .formulario {
   width: 80%;
 }
-#contacto .container .formulario input {
+.contacto-form .container .formulario input {
   border-radius: 0;
   box-shadow: none;
   border: white;
